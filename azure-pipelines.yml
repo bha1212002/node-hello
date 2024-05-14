@@ -21,8 +21,9 @@ steps:
 - task: Npm@1
   inputs:
     command: 'publish'
+    workingDir: '/home/einfochips/myagent/_work/1/s'
     publishRegistry: 'useFeed'
-    publishFeed: '90a7f0c4-e199-7050-a7f2-5e37a59475fc'
+    publishFeed: 'cf1ee12f-274b-4fe1-8aed-2625305234cc/1ea8357d-c506-473f-a254-b62332c4d26f'
 
 - task: Npm@1
   inputs:
