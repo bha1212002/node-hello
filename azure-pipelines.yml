@@ -22,7 +22,7 @@ steps:
   inputs:
     command: 'publish'
     publishRegistry: 'useFeed'
-    publishFeed: 'b130edd1-e0c9-46aa-aec7-054088293896'
+    publishFeed: '90a7f0c4-e199-7050-a7f2-5e37a59475fc'
 
 - task: Npm@1
   inputs:
